@@ -3,7 +3,7 @@ Projeto de Simulador MARS/SPIM (MIPS) para a matéria de Arquitetura de Computad
 
 ### Membros do Projeto
 * **Guilherme Victório de Carvalho Brito Vieira** - [victoriog@academico.ufs.br](mailto:victoriog@academico.ufs.br)
-* **Gustavo Tínel Vitória Fraga** - [gustavotinel@academico.ufs.br](mailto:gustavotinel@academico.ufs.br)
+* **Gustavo Tínel Vitória Fraga**
 * **Laísla Oliveira Dias de Souza** - [laislaoliveirads@academico.ufs.br](mailto:laislaoliveirads@academico.ufs.br)
 
 ---
@@ -51,5 +51,7 @@ O MARS destaca-se pela sua grande simplicidade de configuração (*seção em an
 
 Para ilustrar o funcionamento do simulador e a aplicação de conceitos de programação, desenvolvemos e adaptamos algoritmos clássicos em Assembly MIPS. *(Seção em andamento)*
 
-### 4.1. Algoritmo Heap Sort
-Responsável por ordenar um array utilizando a estrutura de dados Heap (Max-Heap), com o código demonstrando o uso de manipulação de memória, laços de repetição, desvios condicionais e chamadas de procedimentos (como o uso da pilha `$sp`).
+## 4.1. ÍNDICE - Códigos feitos para a Simulação
+|   Nome   |   Descrição   |
+|   -------   |   ---------   |
+|[Algoritmo HeapSort](heapsort.asm)|Responsável por ordenar um array utilizando a estrutura de dados Heap (Max-Heap), com o código demonstrando o uso de manipulação de memória, laços de repetição, desvios condicionais e chamadas de procedimentos|
