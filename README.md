@@ -56,4 +56,4 @@ Para ilustrar o funcionamento do simulador e a aplicação de conceitos de progr
 |   -------   |   ---------   |
 |[Algoritmo HeapSort](heapsort.asm)|Responsável por ordenar um array utilizando a estrutura de dados Heap (Max-Heap), com o código demonstrando o uso de manipulação de memória, laços de repetição, desvios condicionais e chamadas de procedimentos|
 |[Algoritmo de Fila](filaComListaEncadeada.asm)|Trata-se de uma estrutura de dados do tipo FIFO (*First In First Out*), onde o primeiro elemento a ser inserido pelo método `enfileirar` também será o primeiro a ser removido da fila chamando o método `desenfileirar`. O código demonstra o uso de manipulação de memória, gerenciamento da pilha com `$sp` e `$ra` e o controle de fluxo por desvios condicionais|
-|[Algoritmo de Pilha](
+|[Algoritmo de Pilha](pilhaComListaEncadeada.asm)|Pilhas são estruturas de dados do tipo LIFO(*Last In First Out*), onde o primerio elemento inserido pela chamada da função `empilhar` será o último a ser removido pela função `desempilhar`.Cada nó possui 8 bytes é alocado dinamicamente com a *syscall* 9 (`sbrk`), e `exibirPilha` percorre a pilha do topo até a base.|
